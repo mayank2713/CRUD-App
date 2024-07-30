@@ -163,9 +163,7 @@ const App = () => {
             mb: 2,
           }}
         >
-          // <Button variant="contained" color="primary" onClick={() => handleOpen({ ID: "", Avatar_Name: "", Performance_Score: "" })}>
-          //   Add New Entry
-          // </Button>
+   
           <Button variant="outlined" onClick={syncData}>
             Sync Data
           </Button>
